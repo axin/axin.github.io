@@ -1,0 +1,758 @@
+@import url('lato/latofonts.css');
+html,
+body,
+iframe {
+  font-family: 'LatoWeb', sans-serif;
+}
+body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
+  padding-top: 0;
+}
+#ottSaaS {
+  margin-top: -236px;
+}
+#ottSaasHeader app > .container {
+  padding: 0;
+  width: 1170px;
+}
+@media (max-width: 1169px) {
+  #ottSaasHeader app > .container {
+    padding: 0 10px;
+    width: 100%;
+  }
+}
+.ottwl-header {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.forms-tabs li {
+  padding: 0;
+  margin: 0;
+}
+.forms-tabs li a {
+  padding: 6px 15px;
+}
+.ottwl-header div.ottwl-header__block:nth-child(2) {
+  margin-top: 102px;
+  margin-left: -10px;
+}
+.ottwl-header div.ottwl-header__block:nth-child(3) {
+  margin-left: calc(100% - 50px);
+}
+.ottwl-header div.ottwl-header__block:nth-child(4) {
+  display: none;
+}
+logo > .ottwl-header__block {
+  margin-top: 17px;
+}
+logo .ottwl-header__block a img {
+  max-width: 447px !important;
+}
+.form-title, div[data-wl-class="HotelsIndex__main-title"] {
+  font-size: 50px !important;
+  font-family: 'LatoWeb' !important;
+  margin-bottom: -25px !important;
+  max-width: 1170px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: left !important;
+}
+.form-title[data-railways-form-title] {
+  margin-top: 170px !important;
+}
+div[data-wl-class="HotelsIndex__main-title"] {
+  margin-top: 217px !important;
+}
+body.appContainer form[data-wl-class~=HotelsSearchForm__form] {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.block-rzhd-search__form {
+  padding-top: 2px !important;
+  padding-bottom: 63px !important;
+}
+.form-title[data-railways-form-title] {
+  margin-top: 160px !important;
+  margin-bottom: 10px !important;
+}
+.forms-tabs li a {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'LatoWeb';
+}
+.forms-tabs li.active a,
+.forms-tabs li.active:hover a,
+.forms-tabs li.active:hover a:hover,
+.forms-tabs li.active:focus a,
+.forms-tabs li.active a:focus,
+.forms-tabs li.active:focus a:focus {
+  color: #ffffff !important;
+  background: none;
+  font-family: 'LatoWebBold';
+}
+.forms-tabs li a::after {
+  content: '';
+  display: block;
+  height: 4px;
+  margin-top: 8px;
+}
+.forms-tabs li.active a::after,
+.forms-tabs li:hover a::after,
+.forms-tabs li:hover a:hover::after {
+  background-color: #c41d39;
+}
+.forms-tabs li:hover a,
+.forms-tabs li:hover a:hover {
+  color: #ffffff !important;
+}
+.avia-search-form-wrap {
+  padding-top: 270px;
+}
+body.appContainer div[data-wl-class~=HotelsHeader__HotelsHeader--isSlideTop] {
+  padding-top: 250px;
+}
+body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] {
+  background-color: #83b143 !important;
+}
+body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=HotelsSerp__content] {
+  top: 306px !important;
+}
+body.appContainer div[data-wl-class~=HotelsIndex__search]:before,
+.form-container:before,
+.avia-search-form-wrap:before {
+  display: none;
+}
+/*Avia*/
+.ngdialog.auth-popup .text-center .btn.btn-lg,
+.ticket-preview .footer .btn {
+  border-radius: 20px;
+}
+.best-deals .best-deal-container .deals-img-container:hover .deals-img:before {
+  opacity: .25;
+}
+.ticket-preview.__time .head .label {
+  background-color: #cd1c2a;
+}
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+  background: #fff;
+  border: none;
+  box-shadow: 0 35px 79px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 6px;
+  padding: 30px;
+}
+.glyphicon.glyphicon-star,
+.glyphicon.glyphicon-star-half,
+.glyphicon.glyphicon-star-empty {
+  color: #82b23b;
+}
+.label-wControls {
+  line-height: 24px;
+  padding-left: calc(24px + 10px);
+}
+.label-wControls .icheckbox {
+  top: 0;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ccd5d7;
+}
+.label-wControls .icheckbox.checked {
+  background: none;
+}
+.label-wControls .icheckbox.checked:before {
+  color: #82b23b;
+  font-size: 18px;
+}
+.label-wControls .iradio {
+  top: 0;
+  width: 24px;
+  height: 24px;
+  border-color: #ccd5d7;
+}
+.label-wControls .iradio.checked {
+  background: none;
+}
+.label-wControls .iradio.checked ins {
+  background: #82b23b !important;
+  width: 14px !important;
+  height: 14px !important;
+  opacity: 1 !important;
+  left: 50% !important;
+  top: 50% !important;
+  border-radius: 2px !important;
+  transform: translate(-50%, -50%) !important;
+}
+.white-block {
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+}
+.filtr-block {
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  border: none;
+}
+.filtr-block .filtr-controls > li .avia-stars-rating {
+  font-size: 0;
+}
+.filtr-block .filtr-controls > li .avia-stars-rating > span {
+  font-size: 13px;
+}
+.filtr-block .filtr-controls > li .label-wControls {
+  line-height: 1;
+  padding-left: 25px;
+}
+.filtr-block .filtr-controls > li .label-wControls .iradio {
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ccd5d7;
+  border-radius: 50%;
+  padding: 4px;
+  background: #fff;
+}
+.filtr-block .filtr-controls > li .label-wControls .iradio ins {
+  top: 50% !important;
+  left: 50% !important;
+  width: 5px !important;
+  height: 5px !important;
+  background: #83b143 !important;
+  border-radius: 50% !important;
+  opacity: 0 !important;
+  transform: translate(-50%, -50%) !important;
+}
+.filtr-block .filtr-controls > li .label-wControls .iradio.checked {
+  background: #fff;
+  border-color: #689a29;
+}
+.filtr-block .filtr-controls > li .label-wControls .iradio.checked ins {
+  opacity: 1 !important;
+}
+.btn-group-lg > .btn,
+.btn-lg {
+  border-radius: 50px;
+}
+.block-icon > svg path {
+  fill: #82b23b;
+}
+.baggageTariff .baggagePic.__unlocked path {
+  fill: #82b23b;
+}
+.ticket-preview {
+  border: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+}
+.ticket-preview:hover {
+  box-shadow: 0 25px 40px rgba(51, 62, 62, 0.14);
+}
+.ticket {
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+}
+.ticket .head {
+  background-color: #82b23b;
+}
+.edit-search-params-button {
+  border-radius: 50%;
+}
+body.appContainer div[data-wl-class~="AdvancedDatepicker__calendar"],
+.avia-search-form-wrap .avia-search-form .popover,
+.ott-datepicker-popup,
+.avia-search-form-wrap .avia-search-form [uib-typeahead-popup].dropdown-menu {
+  margin-top: 0;
+  border-top: 3px solid #82b23b;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+}
+body.appContainer div[data-wl-class~="Autocomplete__overlay"] {
+  margin-top: 1px;
+  border-top: 3px solid #82b23b;
+}
+/*Hotels*/
+[data-wl-class~="TabsListContainer__TabsListContainer"] [data-wl-class~="TabsListItem__TabsListItem"] [data-wl-class~="MenuItem__MenuItem--isFirst"] {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+[data-wl-class~="TabsListContainer__TabsListContainer"] [data-wl-class~="TabsListItem__TabsListItem"] [data-wl-class~="MenuItem__MenuItem--isLast"] {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+[data-wl-class~="HotelsDeal__HotelsDeal"]:before {
+  background-image: none;
+  background: rgba(0, 0, 0, 0.4);
+  transition: all .2s;
+}
+[data-wl-class~="HotelsDeal__HotelsDeal"]:hover:before {
+  background: rgba(0, 0, 0, 0.25);
+}
+[data-wl-class~="HotelsFilters__toggle-btn"] svg g {
+  fill: #82b23b;
+}
+[data-wl-class~="HotelsCard__info__sale"] {
+  background-image: linear-gradient(-90deg, rgba(63, 190, 96, 0), #cd1c2a 24%);
+}
+.is-selected .pika-button,
+.is-selected .pika-button:hover,
+.is-selected .pika-button:focus,
+.is-selected .pika-button:active,
+[data-wl-class~="Day__Day--isSelected"],
+.avia-search-block .search-form .btn-group > a.active {
+  color: #82b23b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border-color: #82b23b !important;
+}
+[data-wl-class~="HotelsBookPay__step-icon"] svg path,
+[data-wl-class~="title__wishes-tip-icon"] svg path,
+[data-wl-class~="title__guests-tip-icon"] svg path {
+  fill: #82b23b !important;
+}
+[data-wl-class~='HotelOfferRoom__HotelOfferRoom'] [data-wl-class~='HotelOfferRoom__button'],
+[data-wl-class~="HotelsCard__footer__button"] {
+  background: #82b23b !important;
+  border: 1px solid #82b23b !important;
+}
+body [data-wl-class~='NewTrainCard__button'],
+.content-wrap .btn.btn-grey,
+.content-wrap .btn-primary,
+.ticket .head .btn.btn-default,
+[data-wl-class~='HotelOfferRoom__HotelOfferRoom'] [data-wl-class~='HotelOfferRoom__button'],
+[data-wl-class~="HotelsCard__footer__button"] {
+  background: #82b23b;
+  border: 1px solid #82b23b;
+  box-shadow: none;
+  border-radius: 20px;
+}
+body.appContainer .form-container #rzhd_form .rzhd-form__submit .rzhd-btn:hover,
+body.appContainer [data-wl-class~="SubmitButton__SubmitButton--theme-blue"]:hover,
+.avia-search-form-wrap .avia-search-form .avia-search-button:hover,
+.rzhd-btn:hover,
+[data-wl-class~="ActionButton__inner"]:hover,
+[data-wl-class~="ActionButton__ActionButton"]:hover,
+[data-wl-class~="NewTrainCard__button"]:hover,
+[data-wl-class~="HotelOfferRoom__button"]:hover,
+[data-wl-class~="SubmitButton__SubmitButton"]:hover,
+[data-wl-class~="HotelsCard__footer__button"]:hover,
+.btn-primary:hover {
+  background: #82b23b !important;
+  border: 1px solid #82b23b !important;
+  box-shadow: 0px 5px 13px rgba(0,0,0,.22) !important;
+}
+[data-wl-class~='HotelsPayForm--isRenderCreditCard__submit-button'] [data-wl-class~='SubmitButton__SubmitButton--submit-button-new'],
+[data-wl-class~='GoBack__GoBack--railways'] [data-wl-class~='GoBack__inner'],
+body.appContainer [data-wl-class~="ActionButton__ActionButton"],
+body.appContainer [data-wl-class~="ActionButton__inner"] {
+  background: #82b23b;
+  border: 1px solid #82b23b;
+  box-shadow: none;
+  border-radius: 50px !important;
+}
+[data-wl-class~='HotelsPayForm--isRenderCreditCard__submit-button'] [data-wl-class~='SubmitButton__SubmitButton--submit-button-new']:hover,
+[data-wl-class~='GoBack__GoBack--railways'] [data-wl-class~='GoBack__inner']:hover,
+body.appContainer [data-wl-class~="ActionButton__ActionButton"]:hover,
+body.appContainer [data-wl-class~="ActionButton__inner"]:hover {
+  background: #82b23b;
+  border: 1px solid #82b23b;
+  box-shadow: 0px 5px 13px rgba(0,0,0,.22);
+}
+.avia-search-form-wrap .avia-search-form .avia-search-button:hover {
+  border: none !important;
+}
+/*
+
+  Railways
+*/
+body.appContainer {
+  /* SELECTBOX */
+  /* CHECKBOX */
+}
+body.appContainer [data-wl-class~="NewTrainCard__NewTrainCard"] {
+  border: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+}
+body.appContainer [data-wl-class~="Select__Select"] [data-wl-class~="SelectTrigger__SelectTrigger"] {
+  border: none;
+  border-bottom: 1px solid #bbbcbc;
+  background: none;
+}
+body.appContainer [data-wl-class~="Select__Select"] [data-wl-class~="Select__wrapper"] {
+  border: none;
+  border-top: 3px solid #82b23b;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+}
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger"] [data-wl-class~="DropdownTrigger__button"] {
+  border: none !important;
+  border-bottom: 1px solid #bbbcbc !important;
+  border-radius: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger"] [data-wl-class~="DropdownTrigger__button"] [data-wl-class~="DropdownTrigger__value"] {
+  color: #333333 !important;
+  font-size: 16px !important;
+}
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger"] [data-wl-class~="DropdownTrigger__button"]:focus,
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger"] [data-wl-class~="DropdownTrigger__button"]:hover {
+  border: none !important;
+  border-bottom: 1px solid #82b23b !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger"] [data-wl-class~="DropdownTrigger__button"]:focus [data-wl-class~="DropdownTrigger__value"],
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger"] [data-wl-class~="DropdownTrigger__button"]:hover [data-wl-class~="DropdownTrigger__value"] {
+  color: #333333 !important;
+}
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger--isOpen"] [data-wl-class~="DropdownTrigger__button"] {
+  border: none !important;
+  border-bottom: 1px solid #bbbcbc !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger--isOpen"] [data-wl-class~="DropdownTrigger__button"] [data-wl-class~="DropdownTrigger__value"] {
+  color: #333333 !important;
+}
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger--isOpen"] [data-wl-class~="DropdownTrigger__button"]:focus,
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger--isOpen"] [data-wl-class~="DropdownTrigger__button"]:hover {
+  border: none !important;
+  border-bottom: 1px solid #bbbcbc !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger--isOpen"] [data-wl-class~="DropdownTrigger__button"]:focus [data-wl-class~="DropdownTrigger__value"],
+body.appContainer [data-wl-class~="Dropdown__Dropdown"] [data-wl-class~="DropdownTrigger__DropdownTrigger--isOpen"] [data-wl-class~="DropdownTrigger__button"]:hover [data-wl-class~="DropdownTrigger__value"] {
+  color: #333333 !important;
+}
+body.appContainer [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__label"] {
+  padding-left: calc(24px + 10px);
+  line-height: 24px;
+}
+body.appContainer [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon"] {
+  background: none;
+  border: 1px solid #ccd5d7;
+  border-radius: 2px;
+  box-shadow: none;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  transform: translateY(0) rotate(0deg) scale(1);
+  display: inline-block;
+  vertical-align: top;
+  left: 10px;
+  top: 10px;
+}
+body.appContainer [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon"] [data-wl-class~="AnimatedCheckBox__checkMark"] {
+  position: static;
+  display: inline-block;
+  vertical-align: top;
+  left: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border: none;
+  text-align: center;
+  transform: translateY(0) rotate(0deg) scale(1);
+}
+body.appContainer [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon"] [data-wl-class~="AnimatedCheckBox__checkMark"]:before {
+  content: '\2714';
+  color: transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+body.appContainer [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon"]:hover {
+  background: none;
+  border: 1px solid #ccd5d7;
+  box-shadow: none;
+}
+body.appContainer [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon"]:hover [data-wl-class~="AnimatedCheckBox__checkMark"]:before {
+  content: '\2714';
+  color: transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+body.appContainer [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon--isChecked"] {
+  background: none;
+  border: 1px solid #ccd5d7;
+  box-shadow: none;
+}
+body.appContainer [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon--isChecked"] [data-wl-class~="AnimatedCheckBox__checkMark"]:before {
+  color: #82b23b;
+}
+body.appContainer [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon--isChecked"] [data-wl-class~="AnimatedCheckBox__checkMark"]:hover {
+  color: #82b23b;
+}
+body.appContainer [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon--isChecked"] [data-wl-class~="AnimatedCheckBox__checkMark"]:hover:before {
+  color: #82b23b;
+}
+body.appContainer [data-wl-class~="title__wishes-item__late-check"] [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon"],
+body.appContainer [data-wl-class~="title__wishes-item__checkbox"] [data-wl-class~="AnimatedCheckBox__AnimatedCheckBox"] [data-wl-class~="AnimatedCheckBox__icon"] {
+  left: 0;
+  top: 0;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] {
+  border: 1px solid #ccd5d7;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] svg {
+  background: none !important;
+  border-radius: 2px !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] {
+  border: 1px solid #ccd5d7 !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg {
+  background: none !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg path {
+  fill: #82b23b;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] svg path {
+  fill: #82b23b !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] {
+  border: 1px solid #ccd5d7 !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] svg {
+  background: none !important;
+  border-radius: 2px !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox"] svg path {
+  fill: #82b23b !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] {
+  border: 1px solid #ccd5d7 !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg {
+  background: none !important;
+  border-radius: 2px !important;
+}
+body.appContainer [data-wl-class~="CheckboxFilter__CheckboxFilter--isActive"] [data-wl-class~="CheckboxFilter__CheckboxFilter__checkbox-hover"] svg path {
+  fill: #82b23b;
+}
+/* TOGGLE BUTTON*/
+[data-wl-class~="NewToggleButton__NewToggleButton"] {
+  border: 2px solid #dfe3e6;
+  border-radius: 20px;
+  box-shadow: none;
+  background: none;
+}
+[data-wl-class~="NewToggleButton__NewToggleButton"] [data-wl-class~="NewToggleButton__inner"] {
+  color: #454644;
+  font-size: 16px;
+}
+[data-wl-class~="NewToggleButton__NewToggleButton"]:hover {
+  border: 2px solid #82b23b;
+  box-shadow: none;
+  background: none;
+}
+[data-wl-class~="NewToggleButton__NewToggleButton"]:hover [data-wl-class~="NewToggleButton__inner"] {
+  color: #454644;
+}
+[data-wl-class~="NewToggleButton__isChecked"] {
+  border: 2px solid #82b23b;
+  box-shadow: none;
+  background: none;
+}
+[data-wl-class~="NewToggleButton__isChecked"] [data-wl-class~="NewToggleButton__inner"] {
+  color: #82b23b;
+}
+[data-wl-class~="NewToggleButton__isChecked"]:hover [data-wl-class~="NewToggleButton__inner"] {
+  color: #82b23b;
+}
+[data-wl-class~="CheckButton__CheckButton"] {
+  color: #454644;
+  font-size: 16px;
+  border: 2px solid #dfe3e6 !important;
+  border-radius: 20px !important;
+  box-shadow: none !important;
+  background: none !important;
+}
+[data-wl-class~="CheckButton__CheckButton"]:hover {
+  color: #454644;
+  border: 2px solid #82b23b !important;
+  box-shadow: none !important;
+  background: none !important;
+}
+[data-wl-class~="CheckButton__CheckButton--isActive"] {
+  color: #82b23b !important;
+  border: 2px solid #82b23b !important;
+  box-shadow: none !important;
+  background: none !important;
+}
+/* INPUTS */
+.container .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #bbbcbc;
+  border-radius: 0;
+  box-shadow: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.container .form-control:focus {
+  border: none !important;
+  border-bottom: 1px solid #82b23b !important;
+  box-shadow: none !important;
+}
+.container .form-control[disabled],
+.container .form-control[readonly],
+.container fieldset[disabled] .form-control {
+  background-color: transparent;
+}
+.container .input-group-addon {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #bbbcbc;
+}
+.container .input-group .input-group-addon ~ .form-control {
+  margin-bottom: 0;
+}
+.ngdialog .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #bbbcbc;
+  border-radius: 0;
+  box-shadow: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 10px;
+}
+.ngdialog .form-control:focus {
+  border: none !important;
+  border-bottom: 1px solid #82b23b !important;
+  box-shadow: none !important;
+}
+[data-wl-class~="title__form-field--first"] {
+  border: none;
+}
+[data-wl-class~="Input2__Input2"] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #bbbcbc;
+}
+[data-wl-class~="Input2__Input2"] input {
+  background: none;
+}
+[data-wl-class~="Input2__Input2--isFocused"] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #82b23b;
+}
+body.appContainer [data-wl-class~="App__App"] [data-wl-class~="PromoCode__shadowBlock"],
+body.appContainer [data-wl-class~="App__App"] [data-wl-class~="PassengersForm__cell__inner"],
+body.appContainer [data-wl-class~="App__App"] [data-wl-class~="PassengerRow__inner"] {
+  box-shadow: none !important;
+}
+body.appContainer [data-wl-class~="App__App"] [data-wl-class~="Input__theme-railways"] [data-wl-class~="Input__inner"] {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #bbbcbc !important;
+}
+body.appContainer [data-wl-class~="App__App"] [data-wl-class~="Input__isFocused"] [data-wl-class~="Input__inner"] {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #82b23b !important;
+}
+.card-form {
+  background-color: #82b23b;
+}
+.card-form:after {
+  background-color: #9bc858;
+}
+.card-form .form-control {
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-radius: 4px;
+  margin-bottom: 0;
+  background-color: #b2d47f;
+}
+.card-form .form-control:focus {
+  border-color: green;
+}
+.card-form .card-number-fields .form-control {
+  border-radius: 0;
+  background-color: #b2d47f;
+}
+.card-form .card-number-fields .form-control:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.card-form .card-number-fields .form-control:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.nav-bar .nav-bar-table tr td a {
+  text-decoration: none !important;
+}
+.baggageTariff-table thead tr th,
+.table thead tr th {
+  border: none;
+  background-color: #f0efed;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.baggageTariff-table tbody tr td,
+.table tbody tr td {
+  border: none;
+  border-bottom: 1px solid #e5e5e3;
+  background-color: transparent;
+}
+body.appContainer [data-wl-class~="HotelsHeader__HotelsHeader--isViewForm"] [data-wl-class~="SubmitButton__SubmitButton--submit-button-new"] {
+  background: #9bc858 !important;
+  box-shadow: 0px 5px 13px rgba(0,0,0,.22) !important;
+}
+body.appContainer [data-wl-class~="HotelsHeader__HotelsHeader--isViewForm"] [data-wl-class~="SubmitButton__SubmitButton--submit-button-new"]:hover {
+  background: #b2d47f !important;
+}
+body.appContainer [data-wl-class~="HotelPageHeader__button"] [data-wl-class~="SubmitButton__SubmitButton--submit-button-new"],
+body.appContainer [data-wl-class~="HotelsBookPay__book"] [data-wl-class~="SubmitButton__SubmitButton--submit-button-new"] {
+  border-radius: 50px;
+}
+body.appContainer .form-container #rzhd_form .rzhd-form-calendar__helper,
+body.appContainer .form-container #rzhd_form .rzhd-form-station__helper {
+  top: 100%;
+}
+body.appContainer .form-container #rzhd_form .rzhd-form-calendar__helper .rzhd-pikaday,
+body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-pikaday,
+body.appContainer .form-container #rzhd_form .rzhd-form-calendar__helper .rzhd-helper,
+body.appContainer .form-container #rzhd_form .rzhd-form-station__helper .rzhd-helper {
+  border-top: 3px solid #82b23b;
+}
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] {
+  border-top: 3px solid #82b23b;
+}
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:first-child > div:nth-child(2) {
+  color: #fff;
+  background: #82b23b;
+  border-color: #82b23b;
+}
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:nth-child(2) > div:first-child > div:nth-child(2),
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:nth-child(2) > div:first-child > div:first-child {
+  color: #fff;
+  background: #82b23b;
+}
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:nth-child(2) > div:first-child > div:nth-child(2) svg,
+[data-wl-class~="HotelsSearchForm__guests"] div > div[tabindex] > div:first-child > div:nth-child(2) > div:first-child > div:first-child svg {
+  fill: #fff;
+}
+@-webkit-keyframes uil-default-anim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes uil-default-anim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
