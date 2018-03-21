@@ -4,8 +4,33 @@ body,
 iframe {
   font-family: 'LatoWeb', sans-serif;
 }
+.spinner-element::before {
+  content: url(img/globe.png);
+  background: none;
+  opacity: 1;
+  animation: unset;
+  top: 13px;
+  left: 13px;
+}
+.spinner-element::after {
+  content: url(img/arrows.png);
+  background: none;
+  opacity: 1;
+  width: 110px;
+  height: 110px;
+  animation: spin 4s linear infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+    transform-origin: 50% 50%;
+  }
+}
 body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
   padding-top: 0;
+}
+.ngdialog.ngdialog-theme-default {
+  padding-top: 230px;
 }
 #ottSaaS {
   margin-top: -236px;
@@ -115,6 +140,15 @@ body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] {
 }
 body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=HotelsSerp__content] {
   top: 306px !important;
+}
+@media (max-width: 530px) {
+  .avia-search-form-wrap .avia-search-form .avia-search-form__content .avia-search-form__buttons .avia-search-button {
+    max-width: unset;
+  }
+}
+[data-wl-class~="HotelsDeal__HotelsDeal"]:before {
+  background-image: url(img/deals-shade.png) !important;
+  opacity: 0.8;
 }
 body.appContainer div[data-wl-class~=HotelsIndex__search]:before,
 .form-container:before,
