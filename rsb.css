@@ -2,9 +2,9 @@
 html,
 body,
 iframe {
-  font-family: 'LatoWeb', sans-serif;
+  font-family: 'LatoWeb', sans-serif !important;
 }
-.spinner-element::before {
+.spinner-element::before, .best-deals-spinner::before {
   content: url(img/globe.png);
   background: none;
   opacity: 1;
@@ -12,7 +12,7 @@ iframe {
   top: 13px;
   left: 13px;
 }
-.spinner-element::after {
+.spinner-element::after, .best-deals-spinner::after {
   content: url(img/arrows.png);
   background: none;
   opacity: 1;
@@ -102,7 +102,7 @@ body.appContainer form[data-wl-class~=HotelsSearchForm__form] {
 .forms-tabs li a {
   color: #ffffff;
   font-size: 22px;
-  font-family: 'LatoWeb';
+  font-family: 'LatoWeb' !important;
 }
 .forms-tabs li.active a,
 .forms-tabs li.active:hover a,
@@ -112,7 +112,7 @@ body.appContainer form[data-wl-class~=HotelsSearchForm__form] {
 .forms-tabs li.active:focus a:focus {
   color: #ffffff !important;
   background: none;
-  font-family: 'LatoWebBold';
+  font-family: 'LatoWebBold' !important;
 }
 .forms-tabs li a::after {
   content: '';
@@ -146,9 +146,64 @@ body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=H
     max-width: unset;
   }
 }
-[data-wl-class~="HotelsDeal__HotelsDeal"]:before {
+[data-wl-class~="HotelsDeal__HotelsDeal"]:before, .deals-img:before {
   background-image: url(img/deals-shade.png) !important;
+  background-color: transparent !important;
+}
+[data-wl-class~="HotelsDeal__HotelsDeal"]:hover:before, .deals-img:hover:before {
+  background-image: url(img/deals-shade-hover.png) !important;
   opacity: 0.8;
+}
+[data-wl-class~="HotelsDeal__HotelsDeal"]:hover:after, .deals-img:hover:after {
+  content: url(img/plane2.png);
+  position: relative;
+  left: calc(50% - 45px);
+  top: calc(-50% - 25px);
+  z-index: 1000;
+}
+[data-wl-class="HotelsDeal__city-name"] {
+  display: block;
+  float: none;
+}
+[data-wl-class="HotelsDeal__price"] {
+  display: block;
+  float: none;
+  margin-top: 35px;
+}
+[data-wl-class="HotelsDeal__price-title"] {
+  font-family: 'LatoWeb' !important;
+  font-size: 20px;
+  font-weight: 900;
+}
+[data-wl-class="HotelsDeal__guests"] {
+  font-family: 'LatoWeb' !important;
+  color: white;
+  font-size: 16px;
+}
+[data-wl-class="HotelsDeal__price"] [data-wl-class="Money--isFat__text"] {
+  font-family: 'LatoWeb' !important;
+  font-size: 26px;
+  font-weight: 900;
+}
+[data-wl-class="HotelsDeal__country-name"] {
+  font-family: 'LatoWeb' !important;
+  margin-top: -20px;
+  display: block;
+  float: right;
+  font-size: 20px;
+  color: white;
+}
+[data-wl-class="HotelsDeal__city-name"] {
+  font-family: 'LatoWeb' !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+[data-wl-class="HotelsDeal__guests"] {
+  float: left;
+}
+[data-wl-class="HotelsDeal__info"] {
+  top: 0;
+  padding: 20px;
 }
 body.appContainer div[data-wl-class~=HotelsIndex__search]:before,
 .form-container:before,
