@@ -4,21 +4,95 @@ body,
 iframe {
   font-family: 'LatoWeb', sans-serif !important;
 }
-.spinner-element::before, .best-deals-spinner::before {
-  content: url(img/globe.png);
-  background: none;
-  opacity: 1;
-  animation: unset;
-  top: 13px;
-  left: 13px;
+.filtr-block .tabs>li.active>a>span {
+  color: #83b143 !important;
 }
-.spinner-element::after, .best-deals-spinner::after {
-  content: url(img/arrows.png);
-  background: none;
-  opacity: 1;
-  width: 110px;
-  height: 110px;
-  animation: spin 4s linear infinite;
+flight-card a,
+.flight a {
+  color: #83b143 !important;
+}
+form[name="$ctrl.bookingForm"] div.block-icon:last-child div.row:last-child a,
+form[name="$ctrl.bookingForm"] div.block-icon:last-child div.row:last-child button {
+  width: 150px;
+}
+app booking:before,
+[data-wl-class="HotelPage__HotelPage"]:before,
+[data-wl-class="HotelsBookPay__HotelsBookPay"]:before,
+[data-wl-class="HotelsPaySuccess__HotelsPaySuccess"]:before {
+  content: '';
+  display: block;
+  height: 250px;
+  background-color: #83b143 !important;
+}
+ul.forms-tabs:after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: white;
+  margin-top: -8px;
+  margin-left: 15px;
+  width: calc(100% - 30px);
+}
+booking .page-header {
+  color: #808080;
+}
+booking a {
+  color: #83b143;
+}
+.ott-datepicker__mod-switcher label {
+  background-color: transparent !important;
+  color: #727272 !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  font-size: 16px !important;
+}
+.ott-datepicker__mod-switcher label:active:hover {
+  color: #727272 !important;
+  background-color: transparent !important;
+}
+.ott-datepicker__mod-switcher label.active:active:hover {
+  color: #83b143 !important;
+  background-color: transparent !important;
+}
+.ott-datepicker__mod-switcher label:hover {
+  color: #727272 !important;
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.ott-datepicker__mod-switcher label.active:hover {
+  color: #83b143 !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #83b143 !important;
+}
+.ott-datepicker__mod-switcher label.active {
+  color: #83b143 !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #83b143 !important;
+}
+.spinner-element::before,
+.best-deals-spinner::before,
+[data-wl-class="LoadingOverlay__LoadingOverlay"]::before,
+[data-wl-class="Loading12p__Loading12p"]::before {
+  content: url(img/globe.png) !important;
+  background: none !important;
+  opacity: 1 !important;
+  animation: unset !important;
+  top: 13px !important;
+  left: 13px !important;
+}
+.spinner-element::after,
+.best-deals-spinner::after,
+[data-wl-class="LoadingOverlay__LoadingOverlay"]::after,
+[data-wl-class="Loading12p__Loading12p"]::after {
+  content: url(img/arrows.png) !important;
+  background: none !important;
+  opacity: 1 !important;
+  width: 110px !important;
+  height: 110px !important;
+  animation: spin 4s linear infinite !important;
 }
 @keyframes spin {
   100% {
@@ -152,14 +226,19 @@ body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=H
 }
 [data-wl-class~="HotelsDeal__HotelsDeal"]:hover:before, .deals-img:hover:before {
   background-image: url(img/deals-shade-hover.png) !important;
-  opacity: 0.8;
+  opacity: 0.8 !important;
 }
 [data-wl-class~="HotelsDeal__HotelsDeal"]:hover:after, .deals-img:hover:after {
-  content: url(img/plane2.png);
-  position: relative;
-  left: calc(50% - 45px);
-  top: calc(-50% - 25px);
-  z-index: 1000;
+  content: url(img/plane2.png) !important;
+  position: relative !important;
+  left: calc(50% - 45px) !important;
+  z-index: 1000 !important;
+}
+[data-wl-class~="HotelsDeal__HotelsDeal"]:hover:after {
+  top: calc(-50% - 25px) !important;
+}
+.deals-img:hover:after {
+  top: calc(50% - 25px) !important;
 }
 [data-wl-class="HotelsDeal__city-name"] {
   display: block;
@@ -204,6 +283,44 @@ body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=H
 [data-wl-class="HotelsDeal__info"] {
   top: 0;
   padding: 20px;
+}
+.avia-result-content > div:nth-child(2) > div:first-child {
+  display: none;
+}
+.avia-result-content > div:nth-child(2) > div:nth-child(2) {
+  margin-top: 6px;
+}
+[data-wl-class="HotelsIndex__deals"] {
+  font-family: 'LatoWeb';
+}
+[data-wl-class="range-title__range-title"] + div > div > div:first-child {
+  background-color: #83b143;
+}
+[data-wl-class="range-title__range-title"] + div > div:before {
+  background-color: #e0e0e0 !important;
+}
+[data-wl-class="range-title__range-title"] + div > div a[role="slider"]:after {
+  background-color: #83b143;
+}
+[data-wl-class="HotelsHotelRoom__room-all-photo"],
+[data-wl-class="HotelOfferRoom__more-button"],
+[data-wl-class="spreader__spreader spreader__spreader--paddings"],
+[data-wl-class="title__guests-tip-button"],
+[data-wl-class="title__wishes-tip-button"],
+[data-wl-class="info__edit-button"],
+[data-wl-class="HotelsPayPrice__taxes-toggle"],
+[data-wl-class="info__details-link"],
+[data-wl-class="HotelsFilters__reset-filters"],
+[data-wl-class="HotelsPaySuccess__order"] a,
+[data-wl-class="HotelsPaySuccess__order__link"],
+[data-wl-class="PayForm__link"],
+[data-wl-class="info__details"] span {
+  color: #83b143 !important;
+}
+[data-wl-class="HotelsPayPrice__important-info"] > div,
+[data-wl-class="HotelsPayPrice__conditions-pay-currency"] + div {
+  color: #83b143 !important;
+  border: 1px solid #83b143 !important;
 }
 body.appContainer div[data-wl-class~=HotelsIndex__search]:before,
 .form-container:before,
