@@ -8,8 +8,9 @@
         color: #808080;
     }
     .rsb-footer__content {
-        width: 974px;
+        max-width: 934px;
         margin: 0 auto;
+        padding: 0 20px
     }
     .rsb-footer__logo-image {
         height: 40px;
@@ -22,9 +23,11 @@
     .rsb-footer__link-divider {
         margin: 0 10px;
     }
-    .rsb-footer__right-column {
-        float: right;
-        margin-top: 26px;
+    @media (min-width: 768px) {
+        .rsb-footer__right-column {
+            float: right;
+            margin-top: 26px;
+        }
     }
     .rsb-footer__telephone {
         color: #f7f9f9;
@@ -37,6 +40,12 @@
         font-size: 14px;
         font-weight: 700;
         text-align: right;
+    }
+    @media (max-width: 767px) {
+        .rsb-footer__tlephone-caption {
+            text-align: left;
+            margin-bottom: 30px;
+        }
     }
     .rsb-footer__conditions {
         margin-top: 18px;
@@ -54,11 +63,11 @@
 </script>
 <div class="rsb-footer">
     <div class="rsb-footer__content">
+        <img src="https://axin.github.io/logo.png" class="rsb-footer__logo-image">
         <div class="rsb-footer__right-column">
             <p class="rsb-footer__telephone">8 800 200 72 07</p>
             <p class="rsb-footer__tlephone-caption">Служба поддержки</p>
         </div>
-        <img src="https://axin.github.io/logo.png" class="rsb-footer__logo-image">
         <div class="rsb-footer__links">
             <a href="javascript:void(0)" onclick="openRsbLink('avia')">Авиабилеты</a><span class="rsb-footer__link-divider">|</span><a  href="javascript:void(0)" onclick="openRsbLink('hotels')">Отели</a><span class="rsb-footer__link-divider">|</span><a href="javascript:void(0)" onclick="openRsbLink('railways')">Ж/Д билеты</a><span class="rsb-footer__link-divider">|</span><a href="/">Страхование</a>
             <div class="rsb-footer__conditions">

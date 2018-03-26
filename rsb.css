@@ -146,6 +146,13 @@ logo > .ottwl-header__block {
 logo .ottwl-header__block a img {
   max-width: 447px !important;
 }
+.best-deals .best-deals-title {
+  margin-top: 0;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 36px;
+  color: #595959;
+}
 .form-title, div[data-wl-class="HotelsIndex__main-title"] {
   font-size: 50px !important;
   font-family: 'LatoWeb' !important;
