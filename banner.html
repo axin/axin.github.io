@@ -9,15 +9,19 @@
     }
     .rsb-banner__title {
         color:  #595959;
-        font-size: 42px;
-        margin-bottom: 31px;
+        font-size: 38px;
+        margin-bottom: 32px;
+        margin-top: 0;
+    }
+    .rsb-banner__title_first {
+        margin-top: 68px;
     }
     .rsb-banner__item-container {
         display: flex;
         justify-content: space-between;
     }
     .rsb-banner__item-container_mb85 {
-        margin-bottom: 85px;
+        margin-bottom: 86px;
     }
     .rsb-banner__circle {
         width: 66px;
@@ -43,16 +47,40 @@
         margin-left: 15px;
         vertical-align: middle;
     }
-    .rsb-banner_extra-advantages {
+    .rsb-banner__extra-advantages {
         display: flex;
     }
-    .rsb-banner_extra-advantages {
-        display: flex;
+    .rsb-banner__extra-advantages-left-column {
+        margin-right: 20px;
+    }
+    .rsb-banner__card-image {
+        width: 336px;
+        height: 249px;
+    }
+    .rsb-banner__issue-card-button {
+        display: inline-block;
+        margin-top: 32px;
+        color:  #ffffff;
+        background-color:  #84b04a;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        width: 180px;
+        height: 42px;
+        border-radius: 21px;
+        line-height: 42px;
+        cursor: pointer;        
+    }
+    .rsb-banner__issue-card-button:hover,
+    .rsb-banner__issue-card-button:visited,
+    .rsb-banner__issue-card-button:active {
+        color:  #ffffff;
+        text-decoration: none;
     }
 </style>
 <div class="rsb-banner">
     <div class="rsb-banner__content">
-        <h1 class="rsb-banner__title">Платите картами RSB Travel и получайте баллы</h1>
+        <h1 class="rsb-banner__title rsb-banner__title_first">Платите картами RSB Travel и получайте баллы</h1>
         <div class="rsb-banner__item-container rsb-banner__item-container_mb85">
             <div class="rsb-banner__item">
                 <div class="rsb-banner__circle">10%</div>
@@ -70,10 +98,15 @@
             </div>
         </div>
 
-        <div class="rsb-banner_extra-advantages">
-            <div>
+        <div class="rsb-banner__extra-advantages">
+            <div class="rsb-banner__extra-advantages-left-column">
                 <h1 class="rsb-banner__title">Дополнительные преимущества по карте RSB Travel Black</h1>
                 <div class="rsb-banner__item-container">
+                    <div class="rsb-banner__item">
+                        <div class="rsb-banner__circle">0%</div>
+                        <div class="rsb-banner__item-description">за снятие наличных<br>за границей</div>
+                    </div>
+
                     <div class="rsb-banner__item">
                         <div class="rsb-banner__circle">
                             <div class="rsb-banner__crown-container">
@@ -87,11 +120,13 @@
                         <div class="rsb-banner__item-description">доступ в бизнес-залы<br>по всему миру</div>
                     </div>
                 </div>
+
+                <div>
+                    <a class="rsb-banner__issue-card-button" href="https://www.rsb.ru/LP/rstravel/" target="_blank">Оформить карту</a>
+                </div>
             </div>
 
-            <div>
-                <img src="https://axin.github.io/img/cards.png">
-            </div>
+            <img class="rsb-banner__card-image" src="https://raw.githubusercontent.com/axin/axin.github.io/master/img/cards.png">
         </div>
     </div>
 </div>
