@@ -28,7 +28,8 @@ app booking:before {
 }
 [data-wl-class="HotelPage__HotelPage"]:before,
 [data-wl-class="HotelsBookPay__HotelsBookPay"]:before,
-[data-wl-class="HotelsPaySuccess__HotelsPaySuccess"]:before {
+[data-wl-class="HotelsPaySuccess__HotelsPaySuccess"]:before,
+body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=HotelsSerp__header] {
   background-image: url(img/hotels-stripes.png) !important;
 }
 ul.forms-tabs:after {
@@ -249,11 +250,13 @@ body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=H
   background-image: url(img/deals-shade.png) !important;
   background-color: transparent !important;
 }
-[data-wl-class~="HotelsDeal__HotelsDeal"]:hover:before, .deals-img:hover:before {
+[data-wl-class~="HotelsDeal__HotelsDeal"]:hover:before,
+.deals-img-container:hover .deals-img:before {
   background-image: url(img/deals-shade-hover.png) !important;
   opacity: 0.8 !important;
 }
-[data-wl-class~="HotelsDeal__HotelsDeal"]:hover:after, .deals-img:hover:after {
+[data-wl-class~="HotelsDeal__HotelsDeal"]:hover:after,
+.deals-img-container:hover .deals-img:after {
   content: url(img/plane2.png) !important;
   position: relative !important;
   left: calc(50% - 45px) !important;
@@ -262,7 +265,7 @@ body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=H
 [data-wl-class~="HotelsDeal__HotelsDeal"]:hover:after {
   top: calc(-50% - 25px) !important;
 }
-.deals-img:hover:after {
+.deals-img-container:hover .deals-img:after {
   top: calc(50% - 25px) !important;
 }
 [data-wl-class="HotelsDeal__city-name"] {
