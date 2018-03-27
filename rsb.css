@@ -22,7 +22,14 @@ app booking:before,
   content: '';
   display: block;
   height: 250px;
-  background-color: #83b143 !important;
+}
+app booking:before {
+  background-image: url(img/avia-stripes.png) !important;
+}
+[data-wl-class="HotelPage__HotelPage"]:before,
+[data-wl-class="HotelsBookPay__HotelsBookPay"]:before,
+[data-wl-class="HotelsPaySuccess__HotelsPaySuccess"]:before {
+  background-image: url(img/hotels-stripes.png) !important;
 }
 ul.forms-tabs:after {
   content: '';
@@ -134,8 +141,19 @@ body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
   margin-top: 102px;
   margin-left: -10px;
 }
+.mobile-menu .icon-bar + .icon-bar {
+  margin-top: 8px !important;
+}
+.mobile-menu .icon-bar {
+  width: 44px !important;
+  height: 4px !important;
+  border-radius: 2px !important;
+  background: #fff !important;
+}
 .ottwl-header div.ottwl-header__block:nth-child(3) {
-  margin-left: calc(100% - 50px);
+  margin-bottom: -25px !important;
+  margin-top: 25px !important;
+  margin-left: -12px !important;
 }
 .ottwl-header div.ottwl-header__block:nth-child(4) {
   display: none;
@@ -217,7 +235,7 @@ body.appContainer div[data-wl-class~=HotelsHeader__HotelsHeader--isSlideTop] {
   padding-top: 250px;
 }
 body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] {
-  background-color: #83b143 !important;
+  background-image: url(img/hotels-stripes.png) !important;
 }
 body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=HotelsSerp__content] {
   top: 306px !important;
