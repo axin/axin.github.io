@@ -8,9 +8,13 @@
         padding-left: 40px;
     }
     @media (max-width: 767px) {
-        .rsb-banner__content,
+        .rsb-banner__content {
+            padding-left: 0 !important;
+        }
         .best-deals .best-deals-title {
             padding-left: 0 !important;
+            padding-right: 0 !important;
+            text-align: center;
         }
     }
     .rsb-banner__title {
@@ -31,6 +35,7 @@
     .rsb-banner__item-container {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap-reverse;
     }
     @media (max-width: 767px) {
         .rsb-banner__item-container {
@@ -95,7 +100,7 @@
     }
     .rsb-banner__issue-card-button {
         display: inline-block;
-        margin-top: -15px;
+        margin-top: 15px;
         color:  #ffffff;
         background-color:  #84b04a;
         font-size: 16px;
@@ -159,7 +164,9 @@
                 </div>
             </div>
 
-            <img class="rsb-banner__card-image" src="https://raw.githubusercontent.com/axin/axin.github.io/master/img/cards.png">
+            <div>
+                <img class="rsb-banner__card-image" src="https://raw.githubusercontent.com/axin/axin.github.io/master/img/cards.png">
+            </div>
         </div>
 
         <div>
