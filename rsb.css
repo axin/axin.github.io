@@ -162,8 +162,9 @@ body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
 logo > .ottwl-header__block {
   margin-top: 17px;
 }
-logo .ottwl-header__block a img {
-  max-width: 447px !important;
+.ottwl-header__block .logo-image {
+  width: 447px !important;
+  max-width: 100% !important;
 }
 .best-deals .best-deals-title {
   margin-top: 0;
@@ -186,6 +187,9 @@ logo .ottwl-header__block a img {
 }
 div[data-wl-class="HotelsIndex__main-title"] {
   margin-top: 217px !important;
+}
+body.appContainer div[data-wl-class~='HotelsSerp__HotelsSerp'] {
+  height: 1200px !important;
 }
 body.appContainer form[data-wl-class~=HotelsSearchForm__form] {
   padding-top: 50px;
