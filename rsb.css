@@ -117,6 +117,10 @@ body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
 #ottSaaS {
   margin-top: -236px;
 }
+#wlIndexInfo {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
 #ottSaasHeader app > .container {
   padding: 0;
   width: 1170px;
