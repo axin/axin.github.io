@@ -265,15 +265,11 @@ body.appContainer div[data-wl-class~=HotelsSerp__HotelsSerp] div[data-wl-class=H
   background-image: url(img/deals-shade-hover.png) !important;
   opacity: 0.8 !important;
 }
-[data-wl-class~="HotelsDeal__HotelsDeal"]:hover:after,
 .deals-img-container:hover .deals-img:after {
   content: url(img/plane2.png) !important;
   position: relative !important;
   left: calc(50% - 45px) !important;
   z-index: 1000 !important;
-}
-[data-wl-class~="HotelsDeal__HotelsDeal"]:hover:after {
-  top: calc(-50% - 25px) !important;
 }
 .deals-img-container:hover .deals-img:after {
   top: calc(50% - 25px) !important;
