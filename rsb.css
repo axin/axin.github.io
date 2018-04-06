@@ -15,8 +15,8 @@ form[name="$ctrl.bookingForm"] div.block-icon:last-child div.row:last-child a,
 form[name="$ctrl.bookingForm"] div.block-icon:last-child div.row:last-child button {
   width: 150px;
 }
-body.ottSaasAvia:before,
 app booking:before,
+app order:before,
 [data-wl-class="HotelPage__HotelPage"]:before,
 [data-wl-class="HotelsBookPay__HotelsBookPay"]:before,
 [data-wl-class="HotelsPaySuccess__HotelsPaySuccess"]:before {
@@ -25,7 +25,7 @@ app booking:before,
   height: 250px;
 }
 app booking:before,
-body.ottSaasAvia:before {
+app order:before {
   background-image: url(img/avia-stripes.png) !important;
 }
 [data-wl-class="HotelPage__HotelPage"]:before,
