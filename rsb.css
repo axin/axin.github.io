@@ -116,12 +116,16 @@ body.appContainer [data-wl-class="App__App"] [data-wl-class="App__body"] {
 .ngdialog.ngdialog-theme-default {
   padding-top: 230px;
 }
-#ottSaaS {
-  margin-top: -236px;
-}
 #wlIndexInfo {
   padding-right: 15px !important;
   padding-left: 15px !important;
+}
+#ottSaasHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;  
 }
 #ottSaasHeader app > .container {
   padding: 0;
